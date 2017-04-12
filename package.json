@@ -1,0 +1,24 @@
+{
+  "name": "microlabUI",
+  "main": "server.js",
+  "description": "UI sample application to display a list of products",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nd541/microlab1UI"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cfenv": "^1.0.x",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1"
+  },
+  "author": "Dao Nguyen"
+}
